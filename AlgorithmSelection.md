@@ -103,13 +103,14 @@ If the problem requires exploring **all possible combinations** without clear st
 
 ## Summary of Choosing the Right Algorithm:
 
-| **Algorithm**       | **Key Characteristics**                                                                                 | **Example Problems**                                         |
-|---------------------|---------------------------------------------------------------------------------------------------------|-------------------------------------------------------------|
-| **Dynamic Programming (DP)** | Overlapping subproblems, optimal substructure, recursive subproblems with memoization or tabulation | Knapsack, LCS, Fibonacci, Matrix Chain Multiplication |
-| **Backtracking**     | Recursive search, constraints, explore all possible solutions, and backtrack when a partial solution fails | N-Queens, Sudoku, Permutations, Subset Sum                  |
-| **Divide and Conquer**| Independent subproblems, recursion, and combining results                                                | Merge Sort, Quick Sort, Binary Search, Closest Pair of Points|
-| **Greedy**           | Local optimization at each step, no backtracking, globally optimal                                        | Kruskal’s MST, Huffman Coding, Fractional Knapsack           |
-| **Exhaustive Search (Brute Force)** | Explore all possibilities, no optimization, no pruning                                      | Subset generation, Permutations, Game-tree search            |
+
+| **Algorithm**       | **Key Characteristics**                                                                                 | **How to Recognize**                                                                                         |
+|---------------------|---------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------|
+| **Dynamic Programming (DP)** | Overlapping subproblems, optimal substructure, recursive subproblems with memoization or tabulation | The problem involves **finding the minimum/maximum** or **counting ways** with **overlapping subproblems**.  |
+| **Backtracking**     | Recursive search, constraints, explore all possible solutions, and backtrack when a partial solution fails | The problem involves **exploring all configurations** and **backtracking** once an invalid solution is found. |
+| **Divide and Conquer**| Independent subproblems, recursion, and combining results                                                | The problem can be **divided into independent subproblems** and solved recursively before combining results.  |
+| **Greedy**           | Local optimization at each step, no backtracking, globally optimal                                        | The problem can be solved by making **locally optimal choices** that lead to a **globally optimal solution**. |
+| **Exhaustive Search (Brute Force)** | Explore all possibilities, no optimization, no pruning                                      | The problem requires **exploring all possible configurations or solutions** without clear optimization rules.  |
 
 ---
 
